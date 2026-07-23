@@ -13,7 +13,7 @@ function Nav() {
     <nav className={`nav${scrolled ? ' nav--solid' : ''}`}>
       <div className="container nav-inner">
         <a href="#" className="nav-logo">
-          <img src="/logo.png" alt="LocAI" />
+          <img src="./logo.png" alt="LocAl" />
         </a>
         <div className="nav-links">
           <a href="#servicios">Servicios</a>
@@ -61,7 +61,7 @@ export default function App() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-left">
-            <div className="hero-tag">LOCAI · AUTOMATIZACIÓN E IA</div>
+            <div className="hero-tag">LocAl · AUTOMATIZACIÓN E IA</div>
             <h1 className="hero-title">
               Automatiza lo que te quita tiempo.
               <br />
@@ -181,7 +181,7 @@ export default function App() {
       <footer className="footer">
         <div className="container footer-grid">
           <div className="footer-brand">
-            <img src="/logo.png" alt="LocAI" className="footer-logo" />
+            <img src="./logo.png" alt="LocAl" className="footer-logo" />
             <p className="footer-claim">IA para negocios locales.</p>
           </div>
           <div className="footer-links">
@@ -190,7 +190,7 @@ export default function App() {
             <a href="#contacto">Contacto</a>
           </div>
           <div className="footer-bottom">
-            <p>LocAI — Querétaro, México</p>
+            <p>LocAl — Querétaro, México</p>
           </div>
         </div>
       </footer>
